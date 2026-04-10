@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: "Roboto", sans-serif;
+}
+
+header{
+    width: 1200px; /* Ativa a largura */
+    display: flex;  /* Ativa o flexbox */
+    margin: 0 auto;  /* Ativa o espaço externo */
+    gap: 36px; /* Ativa o espaçamento entre os itens */
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0px;  /* Ativa o espaço interno */
+    
+}
+.menu-top{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
